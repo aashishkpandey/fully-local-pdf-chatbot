@@ -113,7 +113,7 @@ export function ChatWindow(props: {
           ollama: {
             baseUrl: "http://localhost:11435",
             temperature: 0.3,
-            model: "mistral",
+            model: "llama3.1:latest",
           },
           webllm: {
             // See https://github.com/mlc-ai/web-llm/blob/main/src/config.ts for a list of available models
